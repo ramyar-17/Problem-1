@@ -1,0 +1,111 @@
+import React from 'react';
+import './App.css';
+import icons from './meetings.png';
+import iconss from './rightclick.png';
+import iconsss from './mail.png';
+import iconssss from './explore.png';
+import basic from './basicmeeting.png';
+import unlimit from './unlimited.png';
+import credit from './credit.png';
+import account from './account.png';
+import images from './images.png';
+
+function App() {
+  return (
+    <div className="App">
+      <div className="row">
+        <div className="top col-md-3 col-sm-12">
+          <div className="rectangle">
+            <h9 className="heading">Affordable Pricing</h9>
+          </div>
+          <h3 className="h1heading">Pricing  For Everyone.</h3>
+          <p className="h2heading">We have multiple plans for a wide range of users, all of which are very</p>
+          <p className="h3heading">affordable and feature-full.</p>
+        </div>
+
+        <div className="mid col-md-3 col-sm-12">
+          <div className="row">
+            <div className="yellow">
+              <div className="para">
+                <img src={images} alt="Logo1" className="logo16" />
+                <h3 className="h3">The right price for every usage type</h3>
+                <h5 className="h5">From startups to industries, We have plans curated for all company types</h5>
+                <div className="divide">
+                  <h3 className="explore2">Learn more about pricing ></h3>
+                </div>
+              </div>
+            </div>
+            <div className="green">
+              <div className="card2">
+                <div className="rect2">
+                  <h9 className="basic">Basic</h9>
+                </div>
+                <div className="free">
+                  <h3 className="freee">Free</h3>
+                </div>
+                <div className="ab">
+                  <h3 className="a">For 1 user</h3>
+                </div>
+                <div className="meeting6">
+                  <div className="meeting7">
+                    <img src={basic} alt="Logo" className="logo" />
+                    <h3>Basic Meetings Module</h3>
+                  </div>
+                  <div className="meeting2">
+                    <img src={unlimit} alt="Logo" className="logo" />
+                    <h3>Unlimited Meetings</h3>
+                  </div>
+                  <div className="meeting8">
+                    <img src={credit} alt="Logo" className="logo" />
+                    <h3>No credit card required</h3>
+                  </div>
+                </div>
+                <div className="recta5">
+                  <img src={account} alt="Logo1" className="logo16" />
+                  <h3 className="explore1">Create your account</h3>
+                </div>
+              </div>
+            </div>
+            <div className="black">
+              <div className="card1">
+                <div className="rect1">
+                  <h9 className="startup">Startup</h9>
+                </div>
+                <div className="Rs">
+                  <h3 className="Rupees">
+                    <span className="span">&#8377;300</span>
+                    <sub>/user/year</sub>
+                  </h3>
+                </div>
+                <div className="user">
+                  <h3 className="users">For 10 users</h3>
+                </div>
+                <br></br>
+                <div className="meeting">
+                  <div className="meeting10">
+                    <img src={icons} alt="Logo" className="logo" />
+                    <h3 className="meeting1">Complete Meeting Module</h3>
+                  </div>
+                  <div className="meeting2">
+                    <img src={iconss} alt="Logo" className="logo" />
+                    <h3 className="meeting1">Action Item Dashboard</h3>
+                  </div>
+                  <div className="meeting3">
+                    <img src={iconsss} alt="Logo" className="logo" />
+                    <h3 className="meeting1">Mail Meeting Reports</h3>
+                  </div>
+                </div>
+                <div className="recta">
+                  <img src={iconssss} alt="Logo1" className="logo1" />
+                  <h3 className="explore">Explore</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,133 @@
+.logo {
+  margin-right: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.section2 {
+  height: 20px;
+  background-color: rgb(99, 224, 99);
+  text-align: center;
+  font-family: monospace;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.section {
+  width: 100%;
+  margin-top: 5%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.para {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.circle {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.section3 {
+  align-items: center;
+}
+
+.logo1 {
+  width: 50px;
+  height: 50px;
+}
+
+.h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.h3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.action {
+  align-items: center;
+}
+
+.logo2 {
+  width: 50px;
+  height: 50px;
+}
+
+.circle1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.drill {
+  align-items: center;
+}
+
+.down {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.log3 {
+  width: 50px;
+  height: 50px;
+}
+
+.h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.kp {
+  align-items: center;
+}
+
+.down1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.log6 {
+  width: 50px;
+  height: 50px;
+}
+
+.h6 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.h7 {
+  font-weight: bold;
+  color: dimgray;
+}

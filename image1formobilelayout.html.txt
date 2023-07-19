@@ -1,0 +1,55 @@
+import React from 'react';
+import './App.css';
+import image from './section2.png';
+import data from './data.png';
+import action from './action.jpg';
+import drill from './analys.png';
+import kp from './kp.png';
+
+function App() {
+  return (
+    <div className="App">
+      <div className="image">
+        <img src={image} alt="Logo" className='logo' />
+      </div>
+
+      <div className="section">
+        <div className="section2">
+          <h9 className="heading">Visualization</h9>
+        </div>
+        <div className="para">
+          <h2 className="para">Visualize your data to gain a productive advantage</h2>
+        </div>
+
+        <div className="section3">
+          <div className='circle'>
+            <img src={data} alt="Logo" className='logo1' />
+          </div>
+          <h3 className='h3'>Daily Analytics</h3>
+        </div>
+        <div className="action">
+          <div className='circle1'>
+            <img src={action} alt="Logo" className='logo2' />
+          </div>
+          <h3 className='h1'>Action item tracking</h3>
+        </div>
+
+        <div className="drill">
+          <div className='down'>
+            <img src={drill} alt="Logo" className='log3' />
+          </div>
+          <h3 className='h2'>Drill-down charts</h3>
+        </div>
+        <div className="kp">
+          <div className='down1'>
+            <img src={kp} alt="Logo" className='log6' />
+          </div>
+          <h3 className='h6'>KPIs</h3>
+        </div>
+        <h3 className='h7'>and custom reports...</h3>
+      </div>
+    </div>
+  );
+}
+
+export default App;
