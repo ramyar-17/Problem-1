@@ -1,0 +1,74 @@
+import logo from './logo.svg';
+import './App.css';
+ import cloudd from './cloudd.jpg';
+import invite from './invite.png';
+import icons from './icons.png';
+import email from './email.png';
+function App() {
+  return (
+
+    
+<body>
+
+<div className="App">
+
+      <div className="top">
+        <div className="rectangle">
+          <h9 className="heading" >New Features</h9>
+        </div>
+        <div className="paragraph">
+            <p className="new1">Work Like a Pro.
+            Powerful features.
+            </p>
+            <p class="new5" >1:1 meetings or sprint meetings or stakeholder meets.
+                              Creating meeting notes is easy with minutes.</p>
+        </div>
+    </div>
+ 
+
+    <div className="bottom">
+        <div class="wholepage">
+        <div class="row">
+        <div class="card">
+        <img src={email} alt="Logo" className='logo' />
+        <h3>MOM Reports</h3>
+            <p class="new">Your minutes  of meeting reports are mailed to all participants and reminds them on overdue tasks. </p>
+        </div>
+        <br></br>
+        <div class="card1">
+        <img src={invite} alt="Logo" className='logo' />
+        <h3>Invite participants </h3>
+            <p class="new">Collaborate with your  team by adding them as participants and delegate meeting tasks,even if they are outside your org.</p>
+        </div>
+        </div>
+        </div>
+      <br></br>
+
+      <div class="row2">
+      <div class="card2">
+      <img src={icons} alt="Logo" className='logo' />
+      <h3>Powerful Dashboard </h3>
+          <p class="new">Easily create and sort meetings through the dashboard which tracks your actions and progress.</p>
+      </div>
+      <br></br>
+      <div class="card3">
+        <div className='circle'>
+      <img src={cloudd} alt="Logo" className='logo' />
+      </div>
+      <h3>Cloud Storage </h3>
+          <p class="new">Your attachments are stored securely and E2E encrypted to provide you a completely secure business solution.</p>
+      </div>
+      </div>
+      </div>
+      
+   
+    </div>
+  
+
+</body>
+    
+  
+  );
+}
+
+export default App;

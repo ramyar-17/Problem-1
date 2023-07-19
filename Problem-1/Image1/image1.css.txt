@@ -1,0 +1,119 @@
+.logo{
+  float: left;
+  margin-right: 10px; 
+  width: 500px;
+  margin-top: 10px;
+}
+.App{
+  display: flex;
+  height: 1000px;
+  width: 1000px;
+ 
+}
+.image{
+  width: 65%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.heading{
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: medium;
+ 
+}
+.section2 {
+  height: 20px;
+  background-color:rgb(99, 224, 99);
+  text-align: center;
+  font-family: monospace;
+  margin-top: 10px;
+  width: 100px;
+}
+.section{
+  width: 35%;
+ margin-top: 5%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.para{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.circle{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+
+}
+.section3{
+  align-items: center;
+
+}
+.logo1{
+  width: 50px; /* Adjust the width of the image as needed */
+  height: 50px;
+ 
+}
+.h1{
+  
+
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.h3{
+  display: inline-block;
+  vertical-align: middle;
+}
+.action{
+  align-items: center;
+
+}
+.logo2{
+  width: 50px; /* Adjust the width of the image as needed */
+  height: 50px;
+}
+.circle1{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.drill{
+  align-items: center;
+}
+.down{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.log3{
+
+  width: 50px; /* Adjust the width of the image as needed */
+  height: 50px;
+}
+.h2{
+  display: inline-block;
+  vertical-align: middle;
+}
+.kp{
+  align-items: center;
+}
+.down1{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.log6{
+  width: 50px; /* Adjust the width of the image as needed */
+  height: 50px;
+}
+.h6{
+  display: inline-block;
+  vertical-align: middle;
+}
+.h7{
+  font-weight: bold;
+  color: dimgray;
+}
